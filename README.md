@@ -35,7 +35,7 @@ Before using this project, ensure you have the following installed:
 ### Installation
 
 To get started with this project:
-1. Clone this repository: `git clone https://github.com/yourusername/your-repo-name`
+1. Clone this repository: `git clone https://github.com/jdf18/Quartz`
 2. Compilation steps to be determined but will most likely use cmake
 
 ### Usage
