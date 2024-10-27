@@ -94,6 +94,18 @@
       <a name="label" val="DATA_BUS"/>
       <a name="radix" val="16"/>
     </comp>
+    <comp lib="0" loc="(1920,260)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="C_CIR_LATCH"/>
+    </comp>
+    <comp lib="0" loc="(1920,290)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="C_CLOCK"/>
+    </comp>
+    <comp lib="0" loc="(1920,320)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="C_RESET"/>
+    </comp>
     <comp lib="0" loc="(270,420)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="C_CLOCK"/>
@@ -137,6 +149,10 @@
     <comp lib="0" loc="(270,720)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="C_IDX_ENABLE"/>
+    </comp>
+    <comp lib="0" loc="(270,750)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="C_CIR_LATCH"/>
     </comp>
     <comp lib="0" loc="(280,420)" name="Probe">
       <a name="appearance" val="NewPins"/>
@@ -424,6 +440,10 @@
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="MDR"/>
     </comp>
+    <comp lib="4" loc="(1940,210)" name="Register">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="CIR"/>
+    </comp>
     <comp lib="4" loc="(440,210)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="PC"/>
@@ -502,6 +522,13 @@ de ad
     <wire from="(1690,240)" to="(1730,240)"/>
     <wire from="(1730,130)" to="(1730,150)"/>
     <wire from="(1730,150)" to="(1730,240)"/>
+    <wire from="(1730,240)" to="(1940,240)"/>
+    <wire from="(1920,260)" to="(1940,260)"/>
+    <wire from="(1920,290)" to="(1930,290)"/>
+    <wire from="(1920,320)" to="(1970,320)"/>
+    <wire from="(1930,280)" to="(1930,290)"/>
+    <wire from="(1930,280)" to="(1940,280)"/>
+    <wire from="(1970,300)" to="(1970,320)"/>
     <wire from="(270,420)" to="(280,420)"/>
     <wire from="(270,450)" to="(280,450)"/>
     <wire from="(270,480)" to="(280,480)"/>
