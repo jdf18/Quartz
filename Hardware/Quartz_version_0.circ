@@ -63,6 +63,11 @@
       <a name="facing" val="east"/>
       <a name="label" val="F_CIN"/>
     </comp>
+    <comp lib="0" loc="(1010,1080)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="C_ALU_BW_OP"/>
+      <a name="width" val="4"/>
+    </comp>
     <comp lib="0" loc="(1050,170)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="C_MEM_READ"/>
@@ -206,6 +211,11 @@
       <a name="incoming" val="8"/>
       <a name="spacing" val="6"/>
     </comp>
+    <comp lib="0" loc="(1230,910)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="C_ALU_SFT_OP"/>
+      <a name="width" val="2"/>
+    </comp>
     <comp lib="0" loc="(1270,1080)" name="Constant">
       <a name="value" val="0x0"/>
     </comp>
@@ -325,6 +335,22 @@
     <comp lib="0" loc="(270,1060)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="C_TX_H"/>
+    </comp>
+    <comp lib="0" loc="(270,1090)" name="Pull Resistor">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(270,1090)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="C_ALU_BW_OP"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(270,1120)" name="Pull Resistor">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(270,1120)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="C_ALU_SFT_OP"/>
+      <a name="width" val="2"/>
     </comp>
     <comp lib="0" loc="(270,420)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -491,6 +517,13 @@
     <comp lib="0" loc="(390,350)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="C_RESET"/>
+    </comp>
+    <comp lib="0" loc="(500,940)" name="Pull Resistor">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(500,940)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="F_CIN"/>
     </comp>
     <comp lib="0" loc="(620,120)" name="Pull Resistor"/>
     <comp lib="0" loc="(620,140)" name="Probe">
@@ -820,6 +853,7 @@ de ad
       <a name="appearance" val="logisim_evolution"/>
     </comp>
     <wire from="(1010,1000)" to="(1090,1000)"/>
+    <wire from="(1010,1080)" to="(1140,1080)"/>
     <wire from="(1020,190)" to="(1020,200)"/>
     <wire from="(1020,190)" to="(1040,190)"/>
     <wire from="(1020,200)" to="(1020,220)"/>
@@ -867,6 +901,7 @@ de ad
     <wire from="(1130,1420)" to="(1180,1420)"/>
     <wire from="(1130,1480)" to="(1180,1480)"/>
     <wire from="(1130,1540)" to="(1180,1540)"/>
+    <wire from="(1140,1080)" to="(1140,1100)"/>
     <wire from="(1140,1100)" to="(1140,1160)"/>
     <wire from="(1140,1160)" to="(1140,1220)"/>
     <wire from="(1140,1220)" to="(1140,1280)"/>
@@ -902,6 +937,7 @@ de ad
     <wire from="(1230,240)" to="(1230,290)"/>
     <wire from="(1230,240)" to="(1460,240)"/>
     <wire from="(1230,290)" to="(1230,550)"/>
+    <wire from="(1230,910)" to="(1290,910)"/>
     <wire from="(1240,1060)" to="(1270,1060)"/>
     <wire from="(1240,340)" to="(1240,540)"/>
     <wire from="(1240,340)" to="(1380,340)"/>
@@ -909,6 +945,7 @@ de ad
     <wire from="(1240,800)" to="(1610,800)"/>
     <wire from="(1240,990)" to="(1240,1060)"/>
     <wire from="(1290,1000)" to="(1290,1090)"/>
+    <wire from="(1290,910)" to="(1290,1000)"/>
     <wire from="(1310,1070)" to="(1420,1070)"/>
     <wire from="(1310,980)" to="(1390,980)"/>
     <wire from="(1360,1000)" to="(1360,1530)"/>
